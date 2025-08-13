@@ -1,12 +1,19 @@
-# React + Vite
+# 🚀 Solana Token Creator Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based dashboard for creating and minting custom Solana tokens with full wallet integration.
+Built with React, Solana Web3.js, and the Wallet Adapter UI, it supports Phantom and Solflare wallets and works seamlessly on Devnet for testing or Mainnet for production.
 
-Currently, two official plugins are available:
+Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔌 Wallet Connection – Easily connect or disconnect Solana wallets with one click.
 
-## Expanding the ESLint configuration
+🪙 Token Creation & Minting – Create tokens by specifying recipient address and mint amount; transactions are signed directly from your wallet.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 Real-Time Monitoring – View minted token details including address, supply, and transaction links on Solana Explorer.
+
+🌐 Network Switching – Toggle between Devnet and Mainnet with clear visual indicators.
+
+📋 User Guide – Integrated step-by-step instructions for new users.
+
+Tech Stack:
+React.js · Solana Web3.js · @solana/wallet-adapter-react · @solana/wallet-adapter-react-ui
