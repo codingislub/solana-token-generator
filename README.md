@@ -1,4 +1,4 @@
-# 🚀 Solana Token Creator Dashboard
+# 🚀 Solana Token Creator 
 
 A web-based dashboard for creating and minting custom Solana tokens with full wallet integration.
 Built with React, Solana Web3.js, and the Wallet Adapter UI, it supports Phantom and Solflare wallets and works seamlessly on Devnet for testing or Mainnet for production.
